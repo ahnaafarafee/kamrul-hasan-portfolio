@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 56.25%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 50%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 75%; } }
+
+body {
+  font-family: "Comfortaa", cursive;
+  font-size: 1.6rem; }
+  @media (max-width: 56.25em) {
+    body {
+      padding: 0; } }
+
+.left {
+  margin-left: auto !important; }
+
+.nav-text {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 3.5rem; }
+
+.showcase {
+  background: linear-gradient(90deg, #04022e 0%, #011c21 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh; }
+  .showcase__welcome {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white; }
+    .showcase__welcome-main {
+      margin-top: 14.6rem;
+      margin-bottom: 2rem;
+      font-size: 3rem;
+      font-weight: 600;
+      text-shadow: 6px 2px 2px #555555; }
+    .showcase__welcome-secondary {
+      font-size: 1.6rem;
+      font-weight: 500;
+      letter-spacing: 0.3rem; }
+
+.navbar-toggler-icon {
+  width: 3rem !important; }
+
+.carousel-text {
+  font-size: 4rem;
+  text-align: center;
+  padding: 2rem;
+  font-weight: 900;
+  text-shadow: 3px 2px 2px #8a8888;
+  margin: 4rem; }
+
+.carousel-section {
+  background-color: #dadada98; }
+
+.videos {
+  align-items: center;
+  text-align: center;
+  margin: 2rem; }
+
+.vid-iframe {
+  width: 560px;
+  height: 429px; }
+  @media (max-width: 37.5em) {
+    .vid-iframe {
+      width: 100%;
+      height: 200px; } }
+
+.card-body {
+  align-items: center;
+  text-align: center; }
+
+i {
+  margin: 3rem; }
+
+.icon-phn {
+  color: #8ada8a; }
+
+.fb {
+  margin-bottom: 2rem !important; }
+
+a {
+  text-decoration: none; }
+
+.footer-box {
+  background-color: black;
+  color: white;
+  height: 13rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center; }
+
+#signature {
+  stroke-dasharray: 818;
+  stroke-dashoffset: 818;
+  animation: sign 4s ease;
+  animation-fill-mode: forwards; }
+
+@keyframes sign {
+  to {
+    stroke-dashoffset: 0; } }
+
+@media (min-width: 992px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm {
+    max-width: 720px !important; } }
